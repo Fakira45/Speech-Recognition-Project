@@ -23,6 +23,7 @@ def hear():
                 cmd = cmd.replace('kodi','')
                 print("Command:", cmd)
 
+
     except Exception as e:
         print("Error:", e)
         cmd = ""
